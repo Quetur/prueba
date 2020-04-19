@@ -1,0 +1,39 @@
+<header class="masthead d-flex">
+
+<div class="container mt-5">
+        <div class="card">
+            <div class="card-body">  
+                <div class="row">
+                  <div class="col-md-12">  
+                    <div class="listaProductos" >                 
+                      <table class="table table-bordered table-hover">  
+                        <a class="listadoProductos"></a>
+                          <div class="scrollbar scrollbar-primary"></div>
+                           <tr>
+                            <td>Descripcion</td> 
+                            <td>Precio</td>
+                            <td>Acción</td>
+                            </tr>
+                             {{#each data}} 
+                              <tbody> 
+                              <tr>                       
+                                <td>{{des}}</td>
+                                <td>{{precio1}}</td>
+                                <td>
+                                <a href="/verProducto/{{id_producto}}" class="btn btn-info">Ver</a>
+                                
+                              </tr>
+                              </tbody>
+                              {{/each}} 
+                         </div>
+                      </table>
+                  </div>
+                  </div>
+                </div>
+                
+            </div>
+          </div>
+    </div>
+</header>
+
+

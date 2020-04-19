@@ -1,0 +1,50 @@
+<div class="container p-4">
+  <div class="row">
+
+      <div class="col-md-4 mx-auto">
+
+        <div class="card text-center">
+        {{#each pro}}
+          <div class="card-header">
+            <h3><legend>{{des}}</legend></h3>
+          </div>
+
+        
+          <fieldset>
+
+          <!-- Form Name -->
+         <form action="/producto" method="get">
+          <img value={{foto}} alt="logo" class="card-img-top mx-auto m-2 rounded-circle w-50">
+          <!-- <p><img alt='Todo sobre quesos - Mundoquesos' height='265px; ' id='Header1_headerimg' src='http://4.bp.blogspot.com/-Iqn8dyad-Ks/Xph_7rtjzII/AAAAAAAAjpQ/lC8VXNpqjFUzl5TrrtPXAPjoJLxS-sHOwCK4BGAYYCw/s1600/Capselera_3381.jpg' style='display: block' width='930px; '/>
+            <img scr= "https://3.bp.blogspot.com/-7F5Q_rq8NmQ/VwoC3K38BuI/AAAAAAAAWrE/1ZP_MOeDoGoCW3BelNoPbvnxC13NDE_hw/s200/Mar-del-Plata_Gran-1.jpg" height="200" width="333" alt=nada height="240" /></p>
+            
+            <input  id="precio1" name="precio1"  value={{precio1}}  align="left" style = "float: left" >
+          Text input-->
+
+          <div class="form-group">
+            <label class="col-md-4 control-label" >Precio</label>  
+            <div class="col-md-5">
+              <td style="text-align:right;">
+                <input align='right' type='double' value={{precio1}} style="text-align:right;">
+              </td>
+            </div>
+          </div>
+          {{/each}} 
+
+          <!-- Button (Double) -->
+          
+            <label class="col-md-4 control-label" for="button1id"></label>
+            <div class="col-md-8">
+              <button type="submit" name="button1id" class="btn btn-success">Cerrar</button>
+              <!--<button id="cancel" name="cancel" class="btn btn-danger">Cerrar</button>-->
+            </div>
+          
+          
+          </fieldset>
+          </form> 
+        </div>
+       
+      </div>
+
+  </div>
+</div>

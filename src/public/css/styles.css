@@ -1,0 +1,95 @@
+body {
+    background: #f5f6fa;
+font-family: 'Oswald', sans-serif;
+
+    overflow: hidden;
+}
+
+.index {
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar {
+  color: #fff !important;
+  background: black !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.masthead {
+    color: white;
+    min-height: 30rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: url('/img/mesa_picada.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.masthead h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media (min-width: 992px) {
+    .masthead {
+      height: 100vh;
+    }
+    .masthead h1 {
+      font-size: 5.5rem;
+    }
+  }
+
+  .titu {
+    font-size: 2rem;
+    color: black;
+    margin: 0;
+    padding: 0;
+    
+
+  }
+
+  .titu2 {
+    font-size: 2rem;
+    color: white !important;
+    border-width: 1px;
+    text-shadow: 2px 2px 4px black;
+    margin: 0;
+    padding: 0;
+  }
+
+  .titulo {
+    font-size: 10rem;
+    color: white !important;
+    border-width: 1px;
+    text-shadow: 4px 4px 8px black;
+    margin: 0;
+    padding: 0;
+  }
+
+  .listaProductos {
+    font-size: 2rem;
+    color: black;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    height: 10%;
+  }
+
+  .listaPedidos {
+    font-size: 2rem;
+    color: black;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    height: 60%;
+  }
+
+  
