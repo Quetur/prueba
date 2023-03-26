@@ -51,7 +51,7 @@ passport.serializeUser((user, done) => {
 });
 
 passport.deserializeUser(async (id_users, done) => {
-  const rows = await pool.query('SELECT * FROM users WHERE id_users = ?', [id_users]);
+  const rows = await pool.query('SELECT * FROM users WHERE id = ?', [id_users]);
   done(null, rows[0]);
 });
 
